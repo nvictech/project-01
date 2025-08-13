@@ -169,7 +169,7 @@ class SimpleIPCameraStreamer:
         
         x264enc.set_property("bitrate", 4000)
         x264enc.set_property("tune", "zerolatency")
-        x264enc.set_property("key-int-max", 60)
+        x264enc.set_property("key-int-max", 35)
         x264enc.set_property("speed-preset", "faster")
         
         video_queue.set_property("max-size-buffers", 10)
